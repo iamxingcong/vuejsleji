@@ -1,0 +1,210 @@
+
+  .musicinfo{
+    display: block;
+    border-bottom: 1px solid #DADBE0;
+    overflow: auto;
+  }
+  .crs{
+    line-height: 28px;
+    height: 28px;
+    position: relative;
+    text-align: left;
+  }
+
+  #avantar{
+    width: 180px;
+    height: 180px;
+    display: block;
+    background-position: center center;
+    background-size: 100% auto;
+    box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.35);
+  }
+
+.musicdistributor  .el-row{
+  display: flex;
+}
+.musicdistributor  .el-row span,
+.musicdistributor  .el-row .el-input{
+  flex: 3;
+  text-align: left;
+  margin: 0px 15px;
+  line-height: 40px;
+  height: 40px;
+}
+.cross{
+  display: flex;
+}
+
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width: 100% !important;
+}
+.toplwrapx{
+  display: block;
+  float: right;
+  margin-right: 30px;
+  width: calc(100% - 270px);
+  min-width: 500px;
+  text-align: left;
+}
+.iconname{
+  margin-top: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 1.7em;
+  text-align: left;
+  float: left;
+}
+.albumxt{
+  display: block;
+  clear: both;
+  text-align: left;
+  line-height: 20px;
+  padding: 10px 0px;
+}
+.descd, .tagx{
+  display: block;
+  clear: both;
+  float: left;
+  padding-bottom: 17px;
+  padding-top: 10px;
+}
+.tagx i{
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  float: left;
+  padding: 0px 10px;
+  margin-right: 10px;
+  border:1px solid rgba(52,54,58,1);
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+.spansinglgex{
+  padding-top: 22px;
+}
+
+.spansinglgex span{
+  width: calc(24% - 60px);
+  display: block;
+  float: left;
+  height: 17px;
+  line-height: 17px;
+  text-align: left;
+  padding-bottom: 20px;
+  margin: 0px  30px;
+}
+.whitewraps{
+  margin-bottom: 15px;
+}
+.spansinglgex .cross{
+  padding: 0px  30px;
+  margin-bottom: 15px;
+  text-align: left;
+  line-height: 25px;
+}
+.dialog-footer .left{
+  margin-left: 150px;
+}
+.mgl15{
+  margin-left: 15px;
+}
+.rightwrapx{
+  width:
+}
+.mg22{
+  padding-top: 22px;
+  display: block;
+  float: left;
+  margin-left: 15px;
+}
+.crs span{
+  margin-right: 30px;
+}
+.udetail4 span{
+  margin-top: 14px;
+  line-height: 17px;
+  width: calc(25% - 30px);
+  margin-left: 15px;
+  margin-right: 15px;
+  display: block;
+  float: left;
+  text-align: left;
+}
+.play, .stop{
+  z-index: 9999;
+  display: block;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 0px;
+  background-size: 60px 60px;
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#avatandwrapx{
+  width: 180px;
+  height: 180px;
+  display: block;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.cell .avt img{
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+.marksw .mark{
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.cell i, .cell span{
+  display: block;
+  float: left;
+}
+.slash{
+  width: 15px;
+  text-align: center;
+}
+.cell .avt i{
+  width: 140px;
+}
+.el-dropdown-menu__item i{
+  width: 100%;
+  text-align: center;
+  display: block;
+  min-width: 120px;
+}
+.el-dropdown-menu__item{
+  padding: 0px;
+}
+.khongprice,
+.coprice{
+  width: 60px;
+  height: 24px;
+  display: block;
+  float: left;
+  margin-top: 25px;
+  margin-left: 12px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 12px;
+}
+.coprice{
+  background-color: #DADBE0;
+  color: #4F5359;
+}
+.khongprice{
+  background-color: #9D7ADC;
+  color: #ffffff;
+}
+#addRelateVersion .el-form-item,
+#addMultiVersion  .el-form-item{
+  margin-top: 15px;
+}

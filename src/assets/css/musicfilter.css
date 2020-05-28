@@ -1,0 +1,289 @@
+
+.el-checkbox-button, .el-checkbox-button__inner,
+.el-radio-button, .el-radio-button--mini{
+    position: relative;
+    display: block;
+    opacity: 0.9;
+}
+.filterwrap .el-row{
+  margin-bottom: 5px;
+  display: block;
+  clear: both;
+}
+.whitewraps  .el-tag{
+
+  margin-left: 15px;
+  float: left;
+}
+.whitewraps .el-row  .el-button--text{
+  float: left;
+}
+.el-table::before {
+
+    height: 0px !important;
+}
+.avatar{
+  line-height: 20px;
+  display: block;
+  text-align: left;
+  font-style: normal;
+  font-size: 0.8em;
+}
+.mgl15{
+  margin-left: 15px;
+}
+.filteralreay{
+  clear: both;
+}
+.el-checkbox-group{
+    display: block;
+    z-index: 999;
+    background: #fff;
+}
+.el-checkbox-button{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.play,.stop{
+  background-size: 100% 100%;
+  width: 22px;
+  height: 22px;
+  background-position: center;
+  top: 9px;
+  left: 9px;
+}
+.el-dropdown-menu{
+  background:rgba(255,255,255,1);
+  box-shadow:0px 5px 15px 0px rgba(0,0,0,0.15);
+}
+.play{
+  z-index: 9999;
+}
+
+.gotosome{
+  font-style: normal;
+  cursor: pointer;
+}
+.cssinglgex{
+  display: block;
+  float: left;
+}
+.el-radio,
+.el-radio__input{
+  display: block;
+  margin-bottom: 26px;
+  width: 160px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  z-index: 949;
+  position: relative;
+}
+.el-checkbox, .el-checkbox__input{
+  display: block;
+  margin-bottom: 26px;
+  width: 160px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  z-index: 949;
+  position: relative;
+}
+.el-checkbox:hover{
+  background-color: #EFEFF5;
+}
+.avt{
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 8px;
+  position: relative;
+}
+.uuidx{
+  width: 131px;
+}
+.tagx{
+  float: left;
+  margin-right: 10px;
+}
+.slash{
+  width: 15px;
+  text-align: center;
+}
+.cell i, .cell span{
+  display: block;
+  float: left;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.el-dropdown{
+    margin-left: 0px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.cssinglgex .el-dropdown{
+  margin-right: 20px;
+}
+.cell button{
+  float: left;
+}
+
+.keywr{
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cose{
+  margin-left: 60px;
+}
+.filwrapx{
+  margin-top: 12px;
+  display: block;
+  overflow: auto;
+  position: relative;
+}
+.filwrapx .cssinglgex{
+  padding-top: 24px;
+}
+.filwrapx::before{
+  width: calc(100% - 30px);
+  height: 1px;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  background:#DADBE0;
+}
+.active{
+  background-color: #181932;
+  color:#fff;
+}
+.el-dropdown-menu__item{
+  padding: 0px;
+}
+.el-dropdown-menu__item i{
+  width: 140px;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover ,
+
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover,
+.el-dropdown-menu__item .active,
+.el-dropdown-menu__item i:hover{
+ background-color: #F6F6F6 !important;
+ color: #15B544 !important;
+}
+#setMusicGrade .el-select,
+#setMusicGrade .el-dialog__body{
+  width: 360px;
+  margin-left: 50px;
+}
+#setMusicGrade .cross{
+  text-align: center;
+}
+.el-dialog__body .title{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#setMusicGrade .el-select{
+  margin-top: 25px;
+}
+
+.btngroupsx .el-button:focus,
+.btngroupsx .el-button:hover{
+  background-color: #865EE9;
+  color: #fff;
+}
+
+.el-dropdown:hover .cktit::before{
+  transform: rotate(270deg);
+}
+#Massoperate .btngroupsx button, .btngroupsx .cose{
+  display: block;
+  float: left;
+}
+.btngroupsx .cose{
+  line-height: 40px;
+}
+.searchinput{
+  max-width: 400px;
+  margin: 20px auto;
+}
+#Massoperate .cssinglgex{
+  margin-left: 15px;
+}
+.el-radio-group .el-radio:hover{
+  background-color: #EFEFF5;
+}
+.el-button--text{
+  color: #34363A;
+}
+.borderbtmx{
+  border-bottom: 1px solid #e2e2e2;
+  display: block;
+  width: calc(100% - 30px);
+  margin-left: 15px;
+}
+.cose .left{
+  margin-right: 15px;
+}
+.playeedsx .el-dropdown,
+.playeedsx,
+.playeedsx i,
+.playeedsx span,
+.playeedsx div,
+.playeedsx button,
+.playeedsx .gotosome{
+  color: #9DA1AE !important
+}
+#tipsprojs{
+  width: 360px;
+  display: block;
+  float: right;
+  padding-left: 20px;
+  line-height: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#tipsprojs i{
+  color: #EC3056;
+}
+.cell .el-dropdown{
+  margin-left: 15px;
+}
+#myfileinput,
+#multimusicupx{
+  width: 350px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.filetipx{
+  z-index: -2;
+  padding-left: 15px;
+  line-height: 40px;
+  height: 40px;
+  background: #f6f6f6;
+  display: block;
+  color: #9DA1AE;
+}
+.actived{
+  color: #34363A !important;
+
+}

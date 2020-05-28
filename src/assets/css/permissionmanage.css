@@ -1,0 +1,87 @@
+
+a{
+  text-decoration: none;
+}
+.mg15{
+  display: block;
+  overflow: auto;
+}
+
+table{
+  width: calc(100% - 10px);
+}
+table tr{
+  display: block;
+  width: 100%;
+  clear: both;
+}
+table tr td{
+  width: 33%;
+  display: block;
+  float: left;
+}
+.titlea{
+  width: calc(100% - 25px);
+  padding-left: 15px;
+  display: block;
+  text-align: left;
+  line-height: 2.5em;
+  font-weight: 700;
+  background-color: #E4E4E4;
+}
+.titles,
+.description{
+  display: block;
+  clear: both;
+  text-align: left;
+  line-height: 2.2em;
+  padding: 0px 15px;
+  background-color: #e4e4e4;
+  color:#434343;
+  opacity: 0.8;
+}
+table{
+  border: 1px solid #e2e2e2;
+}
+td{
+  height: 30px;
+  line-height: 30px;
+}
+ td{
+  height: 30px;
+  line-height: 30px;
+}
+ tr{
+  height: 29px;
+  border-bottom: 1px solid #e2e2e2;
+}
+ tr{
+  height: 30px;
+  border-bottom: 1px solid #e2e2e2;
+}
+table tr:nth-last-child(1),
+table tr:nth-last-child(1){
+  border: none !important;
+}
+table td, table td{
+  border-left: 1px solid #e2e2e2;
+}
+table td:first-child,
+table td:first-child{
+  border: none !important;
+}
+table td:first-child,
+table td:nth-child(2),
+table td:nth-child(3){
+  line-height: 30px;
+  text-align: center;
+}
+
+table tr:first-child td{
+  line-height: 30px;
+  text-align: center;
+}
+.widtl .el-input,
+.widtl .el-textarea{
+  width: 590px;
+}

@@ -1,0 +1,182 @@
+
+
+  #DataManage .el-row{
+    margin-bottom: 10px;
+  }
+  #Statics .single{
+    width: calc(25% - 11.3px);
+    display: block;
+    float: left;
+    height: 140px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 52px 0px rgba(0,0,0,0.1);
+    background-size: calc(100% - 145px) 140px;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  #Statics .single:nth-child(4n){
+    margin-right: 0px;
+  }
+ #Statics .single .title, #Statics .single .number{
+    display: block;
+    clear: both;
+    color: #fff;
+    margin-left: 40px;
+  }
+  .single .number{
+    font-size: 2em;
+    line-height: 40px;
+    font-size: 2em;
+    line-height: 40px;
+    margin-top: 41px;
+    float: left
+  }
+  .single .title{
+    float: left;
+    margin-top: 11px;
+  }
+  .ca{
+    background-color: #E48742;
+  }
+  .cb{
+    background-color: rgba(254, 192, 61, 1);
+  }
+  .cc{
+    background-color: rgba(82, 193, 245, 1);
+  }
+  .cd{
+    background-color: rgba(251, 98, 96, 1);
+  }
+  .ce{
+    background-color: #8A69BF;
+  }
+  .cf{
+    background-color: #029D75;
+  }
+  .cg{
+    background-color: #DE5C81;
+  }
+  .ch{
+    background-color: rgba(255, 153, 102, 1);
+  }
+  .ranks{
+    width: calc(50% - 11.3px);
+    min-width: 660px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 52px 0px rgba(0,0,0,0.1);
+  }
+
+  #btm_btn{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+  }
+  #pieChart{
+    display: block;
+    height: 300px;
+    clear: both;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+  #hotWords{
+    min-height: 180px;
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    clear: both;
+    overflow: auto;
+  }
+  #pieChart .el-row, #hotWords .el-row{
+    height: 60px;
+  }
+  #pieChart  .rbtn, #hotWords .rbtn{
+    margin-right: 15px;
+    margin-top: 14px;
+  }
+  .asidexd,
+  .Casidexd{
+    width: calc(25% - 11.3px);
+    min-width: 341px;
+    float: left;
+    background: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 360px;
+    box-shadow: 0px 2px 52px 0px rgba(0,0,0,0.1);
+  }
+  .Basidexd{
+    width: calc(25% - 11.3px);
+    min-width: 341px;
+    float: right;
+    margin-bottom: 15px;
+    background: #fff;
+    height: 360px;
+    box-shadow: 0px 2px 52px 0px rgba(0,0,0,0.1);
+  }
+  .Casidexd .title,
+  .Basidexd .title,
+  .ranks .title,
+  .asidexd .title{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  .Casidexd .el-row,
+  .Basidexd .el-row,
+  .asidexd .el-row{
+    margin-top: 16px;
+    height: 30px;
+  }
+
+  .ranks .el-row{
+    margin-top: 16px;
+  }
+  .keywords {
+    margin: 0px 15px;
+    display: block;
+  }
+  #hotWords .keywords {
+    clear: both;
+  }
+  .keywordtit{
+    line-height: 56px;
+    height: 56px;
+    margin-left: 21px;
+  }
+  .el-dropdown  button,
+  .keywords  button{
+    display: block;
+    float: left;
+    border-radius: 16px;
+    background-color: #EFEFF5;
+    color: #4F5359;
+    border: none !important;
+  }
+  .el-dropdown-menu{
+    margin: 0px;
+    padding: 0px;
+  }
+  .keywords .el-dropdown{
+    margin-right: 15px;
+    float: left;
+  }
+
+  .el-dropdown-menu__item i{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 35px;
+    display: block;
+  }
+  .el-dropdown-menu__item{
+    padding: 0px !important;
+  }
+  #hotWords .keywords  button{
+    margin-bottom: 15px;
+  }
